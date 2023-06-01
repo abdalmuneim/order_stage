@@ -1,0 +1,13 @@
+{
+  "provider": "apple_pay",
+  "data": {
+    "merchantIdentifier": "merchant.com.javaro.orderstage.client",
+    "displayName": "Sam's Fish",
+    "merchantCapabilities": ["3DS", "debit", "credit"],
+    "supportedNetworks": ["amex", "visa", "discover", "masterCard"],
+    "countryCode": "SA",
+    "currencyCode": "SAR",
+    "requiredBillingContactFields": [ "name", "phoneNumber"]
+  }
+}
+
